@@ -1,6 +1,6 @@
-console.log("Hello World");
+console.log("This function add three numbers");
 
-function addThreeNumbers(a,b,c){
+function addThreeNumbers(a, b, c) {
   return a + b + c;
 }
 
