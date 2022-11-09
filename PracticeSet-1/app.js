@@ -6,7 +6,7 @@ console.log( a + b);
 
 
 //Use type of Operator to find the data type
-console.log(typeof(a+b));
+    console.log(typeof(a+b));
 
 //Create a const object in JS Can you change it
 const a1 = {
@@ -28,4 +28,5 @@ const dict = {
     yakka:"work, especially of a strenuous physical kind."
 }
 
-console.log(dict['yakka'])
+console.log(dict['ataraxia'])
+
