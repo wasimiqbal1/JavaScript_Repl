@@ -1,32 +1,34 @@
-//Create a variable of type String & add number
-let a = "Wasim"
-let b = 6
+// // Person Object - Key Value Pair syntax
+// const person = [{
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     "eye-Color": "blue",
+//   },
+  
+//   {
+  
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 25,
+//   "eye-Color": "black",
+//   }
+// ]
+  
+//   // Access Obj Properties
+//  console.log(person[1]["eye-Co]);
 
-console.log( a + b);
+// program to generate a multiplication table
 
+// take input from the user
+const number = parseInt(prompt('Enter an integer: '));
 
-//Use type of Operator to find the data type
-    console.log(typeof(a+b));
+//creating a multiplication table
+for(let i = 1; i <= 10; i++) {
 
-//Create a const object in JS Can you change it
-const a1 = {
-    name: "Wasim",
-    section: "B",
-    isPrincipal : false
+    // multiply i with number
+    const result = i * number;
+
+    // display the result
+    console.log(`${number} x ${i} = ${result}`);
 }
-
-//Add a new key 
-a1['friend'] = "Shoaib"
-a1['name'] = "Ali"
-
-console.log(a1) 
-
-//Word meaning history
-const dict = {
-    appreciate: "recognize the full worth of",
-    ataraxia:"a state of serene calmness.", 
-    yakka:"work, especially of a strenuous physical kind."
-}
-
-console.log(dict['ataraxia'])
-
