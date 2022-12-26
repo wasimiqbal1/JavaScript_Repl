@@ -49,9 +49,7 @@ let lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
 let fullNames = [];
 
 for (let i = 0; i < firstNames.length; i++) {
-    console.log("Parents")
   for (let j = 0; j < lastNames.length; j++) {
-    console.log("Child");
-    // fullNames.push(firstNames[i] + lastNames[j]);
-  }
+    fullNames.push(firstNames[i] + lastNames[j]);
+ }
 }
