@@ -13,7 +13,6 @@
 //     console.log(`${number} * ${i} = ${result}`);
 // }
 
-
 // let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar"];
 
 // let matchFound = "no";
@@ -29,19 +28,30 @@
 //   alert("It's not on the list");
 // }
 
-  let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar","Multan","Faisalabad"];
+// let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar","Multan","Faisalabad"];
 
-  let numElements = cleanestCities.length;
-  let matchFound = false;
-  
-  for (let i = 0; i < numElements; i++) {
-    if ("Faisalabad" === cleanestCities[i]) {
-      matchFound = true;
-      console.log("It's one of the cleanest cities");
-      break;
-    }
+// let numElements = cleanestCities.length;
+// let matchFound = false;
+
+// for (let i = 0; i < numElements; i++) {
+//   if ("Faisalabad" === cleanestCities[i]) {
+//     matchFound = true;
+//     console.log("It's one of the cleanest cities");
+//     break;
+//   }
+// }
+// if (matchFound === false) {
+//   console.log("It's not on the list");
+// }
+
+let firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+let lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+let fullNames = [];
+
+for (let i = 0; i < firstNames.length; i++) {
+    console.log("Parents")
+  for (let j = 0; j < lastNames.length; j++) {
+    console.log("Child");
+    // fullNames.push(firstNames[i] + lastNames[j]);
   }
-  if (matchFound === false) {
-    console.log("It's not on the list");
-  }
-  
+}
