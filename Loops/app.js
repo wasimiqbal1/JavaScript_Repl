@@ -14,13 +14,34 @@
 // }
 
 
-let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar"];
+// let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar"];
 
-for (let i = 0; i <=  3; i++) {
+// let matchFound = "no";
+
+// for (let i = 0; i <= 4; i++){
+// if ("Islambad" === cleanestCities[i]) {
+//   matchFound = "yes";
+//   alert("It's one of the cleanest cities");
+// }
+// }
+
+// if (matchFound === "no") {
+//   alert("It's not on the list");
+// }
+
+  let cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar","Multan","Faisalabad"];
+
+  let numElements = cleanestCities.length;
+  let matchFound = false;
   
-  if ("Islamabad" === cleanestCities[i]) {
+  for (let i = 0; i < numElements; i++) {
+    if ("Faisalabad" === cleanestCities[i]) {
+      matchFound = true;
       console.log("It's one of the cleanest cities");
-    break;
-
+      break;
+    }
   }
-}
+  if (matchFound === false) {
+    console.log("It's not on the list");
+  }
+  
